@@ -21,15 +21,3 @@ function movie(filmeNumero) {
     tituloElemento.innerHTML = filmes[filmeNumero].titulo;
     descricaoElemento.innerHTML = filmes[filmeNumero].descricao;
 }
-
-function house() {
-    filmePrincipal.style.setProperty("--backgroud-url", "linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('../img/capa-house.jpg')");
-    tituloElemento.innerHTML = "HOUSE OF CARDS";
-    descricaoElemento.innerHTML = "Nada pode impedir o político sem escrúpulos Frank Underwood de conquistar Washington. Assista agora a nova temporada de House of Cards que está imperdível."
-}
-
-function hobbit() {
-    filmePrincipal.style.setProperty("--backgroud-url", "linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('../img/capa-hobbit.jpg')");
-    tituloElemento.innerHTML = "O HOBBIT";
-    descricaoElemento.innerHTML = "O dragão Smaug lança sua fúria ardente contra a Cidade do Lago que fica próxima da montanha de Erebor."
-}
